@@ -12,7 +12,7 @@
 
 ---
 
-## Support Mods:
+## Supported Mods:
 
 - [Dusk Armory](https://steamcommunity.com/sharedfiles/filedetails/?id=2661125356)
 - [Crunch’s Armor Tweaks - VAE Addon](https://steamcommunity.com/sharedfiles/filedetails/?id=3159510916)
