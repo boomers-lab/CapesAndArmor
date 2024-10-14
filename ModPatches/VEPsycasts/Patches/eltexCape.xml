@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VPE_Apparel_EltexCape"]/apparel/layers</xpath>
+      <value>
+        <layers>
+          <li>Cape</li>
+          <li>Armor_Cape</li>
+        </layers>
+      </value>
+    </Operation>
+</Patch>

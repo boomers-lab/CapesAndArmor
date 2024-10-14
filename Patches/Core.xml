@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!--Capes-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Cape"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>Cape</li>
+        <li>Armor_Cape</li>
+      </layers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="ApparelArmorPowerBase"]/apparel</xpath>
+    <value>
+      <drawData>
+        <dataNorth>
+          <layer>21</layer>
+        </dataNorth>
+      </drawData>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="ApparelArmorReconBase"]/apparel</xpath>
+    <value>
+      <drawData>
+        <dataNorth>
+          <layer>21</layer>
+        </dataNorth>
+      </drawData>
+    </value>
+  </Operation>
+
+  <!--hoods-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_HatHood"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>EyeCover</li>
+      </layers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="CowboyHat"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>Overhead</li>
+        <li>EyeCover</li>
+      </layers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_TribalHeaddress"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>Overhead</li>
+        <li>EyeCover</li>
+      </layers>
+    </value>
+  </Operation>
+
+
+</Patch>
+
+

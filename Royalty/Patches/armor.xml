@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <!--capes-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="ApparelArmorCataphractBase"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+        <li>Cape</li>
+      </layers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_ArmorLocust"]/apparel</xpath>
+    <value>
+      <layers>
+        <li>Cape</li>
+      </layers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_ArmorMarinePrestige"]/apparel</xpath>
+    <value>
+      <layers>
+        <li>Cape</li>
+      </layers>
+    </value>
+  </Operation>
+
+  <!--hood-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="ApparelHatRoyalTier2"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>Overhead</li>
+        <li>EyeCover</li>
+      </layers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_ArmorMarineHelmetPrestige"]/apparel</xpath>
+    <value>
+      <layers>
+        <li>Overhead</li>
+        <li>EyeCover</li>
+      </layers>
+    </value>
+  </Operation>
+  
+</Patch>

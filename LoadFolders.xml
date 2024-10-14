@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<loadFolders>
+	<v1.5>
+		<li>/</li>
+		<li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
+		<li IfModActive="Ludeon.Rimworld.Ideology">Ideology</li>
+		<li IfModActive="Ludeon.Rimworld.Biotech">Biotech</li>
+		<li IfModActive="Ludeon.Rimworld.Anomaly">Anomaly</li>
+		
+		<li IfModActive="Harkon.DF.Dusk">ModPatches/DuskArmory</li>
+		<li IfModActive="CaptainCrunch.CrunchArmorTweaks">ModPatches/CrunchTweaks</li>
+		<li IfModActive="Wolf.Cape.Flee">ModPatches/WolfCape</li>
+		<li IfModActive="Neronix17.Outland.Core">ModPatches/Outlands</li>
+		<li IfModActive="Mud.TribalApparel">ModPatches/MudsTribal</li>
+		<li IfModActive="vanillaexpanded.vpsycastse">ModPatches/VEPsycasts</li>
+		<li IfModActive="Ricky.BosCompendium">ModPatches/BrotherhoodCompendium</li>
+		<li IfModActive="yamazaki.animalhoods">ModPatches/AnimalHoods</li>
+		<li IfModActive="finch.blood">ModPatches/Sanguine</li>
+	</v1.5>
+</loadFolders>
