@@ -28,8 +28,6 @@ Used art from: [Cosmetic Armor Capes](https://steamcommunity.com/sharedfiles/fil
 
 Steamlink: [Capes Hoods and Armor](https://steamcommunity.com/sharedfiles/filedetails/?id=3344566457)
 
-Comment about any other mods you wish to see supported.
-
 ![Preview](https://github.com/user-attachments/assets/da688fac-b859-4e25-b69a-a9ddd0204321)
 ![Preview2](https://github.com/user-attachments/assets/fd7f511b-df93-46b7-9b9a-e7be6a795792)
 ![Preview3](https://github.com/user-attachments/assets/1ab563cb-372e-43ae-a99b-1b6862a4797b)
