@@ -1,4 +1,4 @@
-# Capes and Armor Mod
+# Capes Hoods and Armor
 
 ## Features
 - Cape wearable above most apparel
