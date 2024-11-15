@@ -9,9 +9,9 @@
 - **Sashes**... the
 - **Masks**... rest
 - ### Items
-- **Large Cape** fitted for cataphract, grenadier, and prestige marine power armor
-- **Prestige Cape** fitted for prestige cataphract and phoenix power armor
-- **Locust Cape** fitted for locust power armor (toggleable)
+-- **Large Cape** fitted for cataphract, grenadier, and prestige marine power armor
+-- **Prestige Cape** fitted for prestige cataphract and phoenix power armor
+-- **Locust Cape** fitted for locust power armor (toggleable)
 
 
 **Now with settings if used with [XML Extensions](https://steamcommunity.com/workshop/filedetails/?id=2574315206)**
