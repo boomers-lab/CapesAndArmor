@@ -1,4 +1,3 @@
-# Capes, Hoods, Crowns, Hats, Collars... Bandoliers, Dusters, Sashes, Masks
 ## Features
 - **Capes** wearable atop *most* apparel
 - **Hoods** wearable over *most* apparel
