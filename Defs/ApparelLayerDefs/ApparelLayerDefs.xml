@@ -3,12 +3,12 @@
 	<ApparelLayerDef>
 		<defName>Cape</defName>
 		<label>cape</label>
-		<drawOrder>305</drawOrder>
+		<drawOrder>310</drawOrder>
 	</ApparelLayerDef>
 
 	<ApparelLayerDef>
 		<defName>Armor_Cape</defName>
 		<label>cloak</label>
-		<drawOrder>310</drawOrder>
+		<drawOrder>320</drawOrder>
 	</ApparelLayerDef>
 </Defs>

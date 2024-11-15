@@ -9,4 +9,16 @@
         </layers>
       </value>
     </Operation>
+
+    <Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VPE_Apparel_EltexCape"]/apparel</xpath>
+      <value>
+        <drawData>
+          <dataNorth>
+            <layer>90</layer>
+          </dataNorth>
+        </drawData>
+      </value>
+    </Operation>
+
 </Patch>

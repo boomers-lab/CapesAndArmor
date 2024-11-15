@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-  <!--Capes-->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Apparel_Cape"]/apparel/layers</xpath>
     <value>
@@ -13,54 +12,145 @@
   </Operation>
 
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[@Name="ApparelArmorPowerBase"]/apparel</xpath>
+    <xpath>Defs/ThingDef[defName="Apparel_Cape"]/apparel</xpath>
     <value>
       <drawData>
         <dataNorth>
-          <layer>21</layer>
+          <layer>90</layer>
         </dataNorth>
       </drawData>
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[@Name="ApparelArmorReconBase"]/apparel</xpath>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_FlakJacket"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>Shell</li>
+        <li>Cape</li>
+      </layers>
+    </value>
+  </Operation>
+
+  <!--Royalty-->
+
+  <Operation Class="PatchOperationReplace" IfModActive="Ludeon.Rimworld.Royalty">
+    <xpath>Defs/ThingDef[@Name="ApparelArmorCataphractBase"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+        <li>Cape</li>
+      </layers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd" IfModActive="Ludeon.Rimworld.Royalty">
+    <xpath>Defs/ThingDef[defName="Apparel_ArmorLocust"]/apparel</xpath>
+    <value>
+      <layers>
+        <li>Cape</li>
+      </layers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd" IfModActive="Ludeon.Rimworld.Royalty">
+    <xpath>Defs/ThingDef[defName="Apparel_ArmorMarinePrestige"]/apparel</xpath>
+    <value>
+      <layers>
+        <li>Cape</li>
+      </layers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace" IfModActive="Ludeon.Rimworld.Royalty">
+    <xpath>Defs/ThingDef[defName="Apparel_PsyfocusRobe"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>Cape</li>
+        <li>Armor_Cape</li>
+      </layers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace" IfModActive="Ludeon.Rimworld.Royalty">
+    <xpath>Defs/ThingDef[defName="Apparel_RobeRoyal"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>Cape</li>
+        <li>Armor_Cape</li>
+      </layers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd" IfModActive="Ludeon.Rimworld.Royalty"> 
+    <xpath>Defs/ThingDef[defName="Apparel_PsyfocusRobe"]/apparel</xpath>
     <value>
       <drawData>
+        <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+        <bodyTypeScales>
+          <Thin>1.1</Thin>
+        </bodyTypeScales>
         <dataNorth>
-          <layer>21</layer>
+          <layer>90</layer>
         </dataNorth>
       </drawData>
     </value>
   </Operation>
 
-  <!--hoods-->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Apparel_HatHood"]/apparel/layers</xpath>
+  <Operation Class="PatchOperationAdd" IfModActive="Ludeon.Rimworld.Royalty">
+    <xpath>Defs/ThingDef[defName="Apparel_RobeRoyal"]/apparel</xpath>
+    <value>
+      <drawData>
+        <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+        <bodyTypeScales>
+          <Thin>1.1</Thin>
+        </bodyTypeScales>
+        <dataNorth>
+          <layer>90</layer>
+        </dataNorth>
+      </drawData>
+    </value>
+  </Operation>
+
+  <!--Ideology-->
+
+  <Operation Class="PatchOperationReplace" IfModActive="Ludeon.Rimworld.Ideology">
+    <xpath>Defs/ThingDef[defName="Apparel_BodyStrap"]/apparel/layers</xpath>
     <value>
       <layers>
-        <li>EyeCover</li>
+        <li>Armor_Cape</li>
       </layers>
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[@Name="CowboyHat"]/apparel/layers</xpath>
+  <Operation Class="PatchOperationAdd" IfModActive="Ludeon.Rimworld.Ideology">
+    <xpath>Defs/ThingDef[defName="Apparel_BodyStrap"]/apparel</xpath>
     <value>
-      <layers>
-        <li>Overhead</li>
-        <li>EyeCover</li>
-      </layers>
+      <drawData>
+        <defaultData>
+          <layer>19</layer>
+        </defaultData>
+      </drawData>
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Apparel_TribalHeaddress"]/apparel/layers</xpath>
+  <Operation Class="PatchOperationReplace" IfModActive="Ludeon.Rimworld.Ideology">
+    <xpath>Defs/ThingDef[defName="Apparel_Blindfold"]/apparel/bodyPartGroups</xpath>
     <value>
-      <layers>
-        <li>Overhead</li>
-        <li>EyeCover</li>
-      </layers>
+      <bodyPartGroups>
+        <li>Mouth</li>
+      </bodyPartGroups>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace" IfModActive="Ludeon.Rimworld.Ideology">
+    <xpath>Defs/ThingDef[defName="Apparel_Collar"]/apparel/bodyPartGroups</xpath>
+    <value>
+      <bodyPartGroups>
+        <li>Mouth</li>
+      </bodyPartGroups>
     </value>
   </Operation>
 

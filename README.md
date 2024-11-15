@@ -1,28 +1,46 @@
-# Capes Hoods and Armor
+# Capes, Hoods, Crowns, Hats, Collars, Bandoliers, Dusters, Sashes, Masks
 
 ## Features
-- Cape wearable above most apparel
-- Hoods wearable over most apparel
-- Slave collar wearable with most apparel
-- Large Cape fitted for cataphract, prestige marine and grenadier power armors
-- Large Prestige Cape fitted for prestige cataphract and phoenix power armor
-- Locust Cape fitted for the locust power armor
-- Compatible with virtually every mod
-[/list]
+- **Capes** wearable atop *most* apparel
+- **Hoods** wearable over *most* apparel
+- **Crowns** wearable on *most* apparel
+- **Hats** wearable above *most* apparel
+- **Collars** wearable with *most* apparel
+- **Bandoliers** you
+- **Dusters** know
+- **Sashes** the
+- **Masks** rest
 
+### Items
+- **Large Cape** fitted for cataphract, grenadier, and prestige marine power armor
+- **Prestige Cape** fitted for prestige cataphract and phoenix power armor
+- **Locust Cape** fitted for locust power armor (toggleable)
+
+Now with settings
 ---
 
-## Supported Mods:
-
-- [Dusk Armory](https://steamcommunity.com/sharedfiles/filedetails/?id=2661125356)
-- [Crunch’s Armor Tweaks - VAE Addon](https://steamcommunity.com/sharedfiles/filedetails/?id=3159510916)
+## Supported Mods
 - [Wolf Cape](https://steamcommunity.com/sharedfiles/filedetails/?id=3115091976)
-- [Outland - Core](https://steamcommunity.com/sharedfiles/filedetails/?id=2755501685)
-- [Mud's Tribal Apparel](https://steamcommunity.com/sharedfiles/filedetails/?id=2796703834)
-- [Vanilla Psycasts Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2842502659)
-- [Brotherhood Compendium](https://steamcommunity.com/sharedfiles/filedetails/?id=2980954290)
+- [Dusk Armory](https://steamcommunity.com/sharedfiles/filedetails/?id=2661125356)
 - [Animal Hoods](https://steamcommunity.com/sharedfiles/filedetails/?id=2940674337)
+- [Outland - Core](https://steamcommunity.com/sharedfiles/filedetails/?id=2755501685)
 - [ↁ House Sanguin](https://steamcommunity.com/sharedfiles/filedetails/?id=3292190756)
+- [Medieval Overhaul](https://steamcommunity.com/sharedfiles/filedetails/?id=3219596926)
+- [Mud's Tribal Apparel](https://steamcommunity.com/sharedfiles/filedetails/?id=2796703834)
+- [Crunch’s Armor Tweaks - VAE Addon](https://steamcommunity.com/sharedfiles/filedetails/?id=3159510916)
+- [Brotherhood Compendium](https://steamcommunity.com/sharedfiles/filedetails/?id=2980954290)
+- [GrimWorld 40k - Hammer of the Imperium](https://steamcommunity.com/sharedfiles/filedetails/?id=3015391450)
+- [Tastier Armory - Medieval European Armors](https://steamcommunity.com/sharedfiles/filedetails/?id=3029073711)
+- [Dead Mans Switch](https://steamcommunity.com/workshop/filedetails/?id=3121742525)
+- [SW: Force Psycast](https://steamcommunity.com/workshop/filedetails/?id=3100942433)
+- [Vanilla Expanded - Armor](https://steamcommunity.com/sharedfiles/filedetails/?id=1814988282)
+- [Vanilla Expanded - Apparel](https://steamcommunity.com/sharedfiles/filedetails/?id=1814987817)
+- [Vanilla Psycasts Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2842502659)
+- [Vanilla Factions Expanded - Classical](https://steamcommunity.com/sharedfiles/filedetails/?id=2787850474)
+- [Vanilla Factions Expanded - Empire](https://steamcommunity.com/sharedfiles/filedetails/?id=2938820380)
+- [Vanilla Factions Expanded - Settlers](https://steamcommunity.com/sharedfiles/filedetails/?id=2052918119)
+
+---
 
 Used art from: [Cosmetic Armor Capes](https://steamcommunity.com/sharedfiles/filedetails/?id=2569116485)
 

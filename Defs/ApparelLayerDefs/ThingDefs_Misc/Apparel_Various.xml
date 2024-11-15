@@ -1,5 +1,5 @@
 <Defs>  
-  <ThingDef ParentName="ApparelMakeableBase">
+  <ThingDef ParentName="ApparelMakeableBase" MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">
     <defName>Apparel_LargeCape</defName>
     <label>Large cape</label>
     <description>Cape sized for large armors like cataphract, prestige marine and grendaier.</description>
@@ -42,9 +42,16 @@
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/LargeArmorCape/LargeArmorCape</wornGraphicPath>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+      <shellRenderedBehindHead>true</shellRenderedBehindHead>
       <layers>
         <li>Armor_Cape</li>
       </layers>
+      <drawData>
+        <dataNorth>
+          <layer>90</layer>
+        </dataNorth>
+      </drawData>
       <tags>
         <li>Cape</li>
         <li>Royal</li>
@@ -54,13 +61,13 @@
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
     <recipeMaker>
-      <displayPriority>245</displayPriority>
+      <displayPriority>236</displayPriority>
     </recipeMaker>
   </ThingDef>
-  
-  <ThingDef ParentName="ApparelMakeableBase">
+
+  <ThingDef ParentName="ApparelMakeableBase" MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">
     <defName>Apparel_LargePrestigeCape</defName>
-    <label>Large prestige cape</label>
+    <label>Prestige cape</label>
     <description>Cape sized for the bulkiest armors like Prestige Cataphract and Phoenix power armor .</description>
     <possessionCount>1</possessionCount>
     <graphicData>
@@ -72,7 +79,7 @@
       <ThingDef>Apparel_ArmorCataphractPrestige</ThingDef>
       <ThingDef>Apparel_ArmorCataphractPhoenix</ThingDef>
     </descriptionHyperlinks>
-    <costStuffCount>80</costStuffCount>
+    <costStuffCount>90</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
@@ -81,7 +88,7 @@
       <li>ApparelNoble</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>200</MaxHitPoints>
+      <MaxHitPoints>220</MaxHitPoints>
       <WorkToMake>18000</WorkToMake>
       <Mass>2</Mass>
       <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
@@ -94,7 +101,7 @@
       <PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
     </equippedStatOffsets>
     <costList>
-      <Gold>5</Gold>
+      <Gold>1</Gold>
     </costList>
     <apparel>
       <bodyPartGroups>
@@ -112,6 +119,11 @@
       <layers>
         <li>Armor_Cape</li>
       </layers>
+      <drawData>
+        <dataNorth>
+          <layer>90</layer>
+        </dataNorth>
+      </drawData>
       <tags>
         <li>Cape</li>
         <li>Royal</li>
@@ -121,11 +133,11 @@
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
     <recipeMaker>
-      <displayPriority>246</displayPriority>
+      <displayPriority>237</displayPriority>
     </recipeMaker>
   </ThingDef>
 
-  <ThingDef ParentName="ApparelMakeableBase">
+  <ThingDef ParentName="ApparelMakeableBase" MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">
     <defName>Apparel_LocustCape</defName>
     <label>Locust cape</label>
     <description>Fitted cape sized to fit over Locust Armor.</description>
@@ -143,7 +155,7 @@
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
-	  <thingCategories>
+    <thingCategories>
       <li>ApparelNoble</li>
     </thingCategories>
     <statBases>
@@ -171,6 +183,11 @@
       <layers>
         <li>Armor_Cape</li>
       </layers>
+      <drawData>
+        <dataNorth>
+          <layer>90</layer>
+        </dataNorth>
+      </drawData>
       <tags>
         <li>Cape</li>
         <li>Royal</li>
@@ -183,4 +200,5 @@
       <displayPriority>248</displayPriority>
     </recipeMaker>
   </ThingDef>
+
 </Defs>
