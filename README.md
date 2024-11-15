@@ -6,10 +6,10 @@
 - **Crowns** wearable on *most* apparel
 - **Hats** wearable above *most* apparel
 - **Collars** wearable with *most* apparel
-- **Bandoliers** you
-- **Dusters** know
-- **Sashes** the
-- **Masks** rest
+- **Bandoliers**... you
+- **Dusters**... know
+- **Sashes**... the
+- **Masks**... rest
 
 ### Items
 - **Large Cape** fitted for cataphract, grenadier, and prestige marine power armor
