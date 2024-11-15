@@ -8,7 +8,7 @@
 - **Dusters**... know
 - **Sashes**... the
 - **Masks**... rest
-- ### Items
+- ### *Fitted capes*
   - **Large Cape** fitted for cataphract, grenadier, and prestige marine power armor
   - **Prestige Cape** fitted for prestige cataphract and phoenix power armor
   - **Locust Cape** fitted for locust power armor (toggleable)
