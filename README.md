@@ -17,8 +17,8 @@
 - **Locust Cape** fitted for locust power armor (toggleable)
 
 Now with settings
----
 
+---
 ## Supported Mods
 - [Wolf Cape](https://steamcommunity.com/sharedfiles/filedetails/?id=3115091976)
 - [Dusk Armory](https://steamcommunity.com/sharedfiles/filedetails/?id=2661125356)
