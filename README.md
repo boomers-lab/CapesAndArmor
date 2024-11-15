@@ -44,7 +44,7 @@ Now with settings
 
 Used art from: [Cosmetic Armor Capes](https://steamcommunity.com/sharedfiles/filedetails/?id=2569116485)
 
-Steamlink: [Capes Hoods and Armor](https://steamcommunity.com/sharedfiles/filedetails/?id=3344566457)
+Steamlink: [Layers: Hoods and Armor](https://steamcommunity.com/sharedfiles/filedetails/?id=3344566457)
 
 ![Preview](https://github.com/user-attachments/assets/da688fac-b859-4e25-b69a-a9ddd0204321)
 ![Preview2](https://github.com/user-attachments/assets/fd7f511b-df93-46b7-9b9a-e7be6a795792)
