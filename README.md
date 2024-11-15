@@ -1,5 +1,4 @@
-# Capes, Hoods, Crowns, Hats, Collars, Bandoliers, Dusters, Sashes, Masks
-
+# Capes, Hoods, Crowns, Hats, Collars... Bandoliers, Dusters, Sashes, Masks
 ## Features
 - **Capes** wearable atop *most* apparel
 - **Hoods** wearable over *most* apparel
@@ -15,6 +14,7 @@
 - **Large Cape** fitted for cataphract, grenadier, and prestige marine power armor
 - **Prestige Cape** fitted for prestige cataphract and phoenix power armor
 - **Locust Cape** fitted for locust power armor (toggleable)
+
 
 **Now with settings if used with [XML Extensions](https://steamcommunity.com/workshop/filedetails/?id=2574315206)**
 
