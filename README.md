@@ -16,7 +16,7 @@
 - **Prestige Cape** fitted for prestige cataphract and phoenix power armor
 - **Locust Cape** fitted for locust power armor (toggleable)
 
-Now with settings
+**Now with settings if used with [XML Extensions](https://steamcommunity.com/workshop/filedetails/?id=2574315206)**
 
 ---
 ## Supported Mods
