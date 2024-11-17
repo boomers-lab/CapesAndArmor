@@ -11,7 +11,7 @@
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="TC_CloakBase"]/apparel</xpath>
+      <xpath>Defs/ThingDef[@Name="TC_CloakBase"]/apparel</xpath>
       <value>
         <drawData>
           <dataNorth>
