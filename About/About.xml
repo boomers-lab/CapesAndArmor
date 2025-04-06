@@ -32,6 +32,7 @@
 		<li>oskarpotocki.vanillafactionsexpanded.settlersmodule</li>
 		<li>vanillaexpanded.varme</li>
 		<li>vanillaexpanded.vappe</li>
+		<li>ceteam.combatextended</li>
 	</loadAfter>
 	<packageId>Yy.CapesandArmor</packageId>
 	<description>You can equip capes, hoods, collars, crowns, cowboy hats above armor and other appropriate apparel</description>

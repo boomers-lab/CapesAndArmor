@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
     <Operation Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DMS_Apparel_TacticalCloak"]/apparel/layers</xpath>
+      <xpath>Defs/ThingDef[defName="VCE_Apparel_WarmJacket"]/apparel/layers</xpath>
       <value>
         <layers>
           <li>Cape</li>
@@ -11,7 +11,7 @@
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="DMS_Apparel_TacticalCloak"]/apparel</xpath>
+      <xpath>Defs/ThingDef[defName="VCE_Apparel_WarmJacket"]/apparel</xpath>
       <value>
         <drawData>
           <dataNorth>

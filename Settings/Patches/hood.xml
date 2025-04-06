@@ -49,7 +49,7 @@
         </value>
       </Operation>
 
-      <Operation Class="PatchOperationReplace" IfModActive="Ludeon.Rimworld.Anomaly">
+      <Operation Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Anomaly">
         <xpath>Defs/ThingDef[defName="Apparel_CeremonialCultistMask"]/apparel/layers</xpath>
         <value>
           <layers>

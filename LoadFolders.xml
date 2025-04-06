@@ -19,7 +19,8 @@
 		<li IfModActive="vanillaexpanded.varme">ModPatches/VEArmor</li>
 		<li IfModActive="vanillaexpanded.vappe">ModPatches/VEApparel</li>
 		<li IfModActive="lee.theforce.psycast">ModPatches/SWForce</li>
-		<li IfModActive="aoba.deadmanswitch.core">ModPatches/DMS</li>		
+		<li IfModActive="aoba.deadmanswitch.core">ModPatches/DMS</li>
+		<li IfModActive="ve.vanillachristmasexpanded">ModPatches/VEXmas</li>		
 
 		<li IfModActive="Harkon.DF.Dusk" IfModNotActive="imranfish.xmlextensions">ModPatches/aDefault/DuskArmory</li>
 		<li IfModActive="Neronix17.Outland.Core" IfModNotActive="imranfish.xmlextensions">ModPatches/aDefault/Outlands</li>
@@ -33,8 +34,9 @@
 		<li IfModActive="oskarpotocki.vanillafactionsexpanded.settlersmodule" IfModNotActive="imranfish.xmlextensions">ModPatches/aDefault/VESettlers</li>
 		<li IfModActive="vanillaexpanded.varme" IfModNotActive="imranfish.xmlextensions">ModPatches/aDefault/VEArmor</li>
 		<li IfModActive="vanillaexpanded.vappe" IfModNotActive="imranfish.xmlextensions">ModPatches/aDefault/VEApparel</li>
-		<li IfModActive="lee.theforce.psycast" IfModNotActive="imranfish.xmlextensions">ModPatches/SWForce</li>
-		<li IfModActive="aoba.deadmanswitch.core" IfModNotActive="imranfish.xmlextensions">ModPatches/DMS</li>
+		<li IfModActive="lee.theforce.psycast" IfModNotActive="imranfish.xmlextensions">ModPatches/aDefault/SWForce</li>
+		<li IfModActive="aoba.deadmanswitch.core" IfModNotActive="imranfish.xmlextensions">ModPatches/aDefault/DMS</li>
+		<li IfModActive="ve.vanillachristmasexpanded" IfModNotActive="imranfish.xmlextensions">ModPatches/aDefault/VEXmas</li>
 
 		<li IfModActive="Harkon.DF.Dusk imranfish.xmlextensions">ModPatches/aSettings/DuskArmory</li>
 		<li IfModActive="Neronix17.Outland.Core imranfish.xmlextensions">ModPatches/aSettings/Outlands</li>
@@ -50,5 +52,6 @@
 		<li IfModActive="vanillaexpanded.vappe imranfish.xmlextensions">ModPatches/aSettings/VEApparel</li>
 		<li IfModActive="lee.theforce.psycast imranfish.xmlextensions">ModPatches/aSettings/SWForce</li>
 		<li IfModActive="aoba.deadmanswitch.core imranfish.xmlextensions">ModPatches/aSettings/DMS</li>
+		<li IfModActive="ve.vanillachristmasexpanded imranfish.xmlextensions">ModPatches/aSettings/VEXmas</li>
 	</v1.5>
 </loadFolders>

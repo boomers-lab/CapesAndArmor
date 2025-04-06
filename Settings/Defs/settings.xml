@@ -37,6 +37,12 @@
                 <defaultValue>true</defaultValue>
                 <tooltip>Bandolier and sash over armor, same as capes</tooltip>
             </li>
+            <li Class="XmlExtensions.Setting.Checkbox">
+                <key>GunlinkToggle</key>
+                <label>Gunlink</label>
+                <defaultValue>true</defaultValue>
+                <tooltip>Gunlink over helmets, like hoods </tooltip>
+            </li>
 
             <li Class="XmlExtensions.Setting.Checkbox">
                 <key>LocustToggle</key>
